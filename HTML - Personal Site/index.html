@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <!---Basically tells the browser that all of our
+      webpage is encoded using the UTF-8 encoding system (a list of all
+       available characters) --->
+  <title>Paurav's Personal Site🌠</title>
+  <!---To open this html webpage
+      on google, just right click on index.html seen on the left and select
+      copy full path, then paste that in the top search bar in Google--->
+</head>
+
+<body>
+  <table cellspacing="20">
+    <!---We don't normally use any of the stylistically formatting
+    attributes (like cellspacing borders) when writing HTML becuase that is
+    what we will use CSS for --->
+    <tr>
+      <td>
+        <img src="images/paurav-modified.png" width="200" height="200" alt="Paurav-profile-picture">
+        <!--if the photo you want to put up is not online or in ur folder, go to photobucket.com
+        and upload it there. Then use the address from there-->
+        <!-- if you need to make an image circular, go to https://crop-circle.imageonline.co/-->
+        <!-- look into image attributes like borders and stuff later-->
+      </td>
+      <td>
+        <h1>Paurav H Param</h1>
+        <!--- select Packeages then Atom Beautify then Beautify to instantly
+              fix any indenting issues --->
+        <p><em>Second Year Comp Sci Student at <strong><a href="https://www.uvic.ca/">University of Victoria</a></strong>.</em></p>
+        <!--we use <em> and not <i> here because <em> means emphasis, which is the
+        point of italicizing words, using <i> would just stylistically change the
+         words; the way they look, it doesn't actually do anything. In addition to
+         this, a better way of putting it is that, emphasis is a logical state and
+         italic is a physical state-->
+        <!--same goes for emboldening words; we should use <strong></strong> over
+         <b></b> as it means more logically-->
+        <!--<a></a> is the anchor element, href=___ is where you put the link destination,
+       and you put the text you want underlined in blue after the opening tag -->
+        <p>I am an Indian and I was born and brought up in Indonesia. I am
+          experienced in Python, Java and HTML, with room to learn more languages.</p>
+      </td>
+    </tr>
+  </table>
+
+  <hr>
+  <h3>Education</h3>
+  <ul>
+    <li>Montessori</li>
+    <li><a href="https://www.ibo.org/en/school/000902">Gandhi Memorial Intercontinental School</a></li>
+    <li>University of Victoria (<em>ongoing</em>)</li>
+  </ul>
+  <hr>
+  <h3>Study/Work Experience</h3>
+  <table cellspacing="10">
+    <thead>
+      <tr>
+        <th>Date</th>
+        <th>Work</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>2017-2021</td>
+        <td>Start of Coding Practice at School</td>
+      </tr>
+      <tr>
+        <td>2019</td>
+        <td>Reached finals of a Coding Competition</td>
+      </tr>
+      <tr>
+        <td>2022-<em>ongoing</em></td>
+        <td>Start of Computer Science degree at University of Victoria</td>
+      </tr>
+    </tbody>
+  </table>
+  <hr>
+  <h3>Skills</h3>
+  <table cellspacing = "10">
+    <tr>
+      <td><table cellspacing="10">
+        <tr>
+          <td>Python</td>
+          <td>⭐⭐⭐</td>
+        </tr>
+        <tr>
+          <td>Java</td>
+          <td>⭐⭐⭐</td>
+        </tr>
+      </table> </td>
+      <td><table cellspacing="10">
+        <tr>
+          <td>HTML</td>
+          <td>⭐⭐</td>
+        </tr>
+        <tr>
+          <td>SQL</td>
+          <td>⭐</td>
+        </tr>
+      </table> </td>
+    </tr>
+  </table>
+  <hr>
+  <a href="hobbies.html">My Hobbies</a>
+  <!--ul = unordered list, use ol (ordered list) for a numbered list; 1,2,3,... -->
+  <a href="contact-details.html">Contact Me</a>
+</body>
+
+</html>

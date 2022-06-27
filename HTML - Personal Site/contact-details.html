@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Contact Details</title>
+  </head>
+  <body>
+    <h1>My Contact Details</h1>
+    <p>Email address: pauravhp2003@gamil.com</p>
+    <p>Phone number: +6281511517240</p>
+    <hr>
+    <form action="mailto:pauravhp2003@gmail.com" method="post" enctype="text/plain">
+      <!--action is what action is going to happen with this form, so it can be
+       for example taking the user back to the initial webpage or in this case,
+       creating a mail draft that is to be sent to the specified email
+       address -->
+       <!--method is what is happening with all the input fields. The enctype
+       is just the encoding type which changes the way the values from the
+       input fields look in certain scenarios -->
+      <label>Your Name:</label>
+      <input type="text" name="yourName" value=""><br>
+      <label>Your Email:</label>
+      <input type="email" name="yourEmail" value=""><br>
+      <label>Your Message:</label> <br>
+      <textarea name="yourMessage" rows="10" cols="30"></textarea> <br>
+      <!--text area is the same as a text box but it is just bigger and is
+      resizeable in the webpage itself -->
+      <input type="submit" name="">
+    </form>
+  </body>
+</html>
